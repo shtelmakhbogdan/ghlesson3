@@ -8,6 +8,7 @@
 
 import Foundation
 
+// чому класс Countrys? якщо повинен бути просто Country. Логіки збереження всіх країн тут взагалі не повинно бути.
 class Countrys {
     var countrys = [String: Int]()
     init (){
